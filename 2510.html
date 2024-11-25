@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chia 3 phần ngang</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            height: 30vh; /* Chiều cao toàn màn hình */
+        }
+        .section {
+            flex: 1; /* Chia đều không gian */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .section:nth-child(1) {
+            background-color: rgb(161, 159, 159); /* Màu vàng */
+        }
+        .section:nth-child(2) {
+            background-color: gray; /* Màu xanh */
+        }
+        .section:nth-child(3) {
+            background-color: rgb(221, 220, 220); /* Màu đỏ */
+        }
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+h2 {
+    color: #007bff;
+}
+
+.product {
+    text-align: center;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background: #f9f9f9;
+    transition: transform 0.2s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cửa Hàng Giày Đá Bóng</h1>
+        <h1>HN Sport</h1>
+        <nav>
+            <ul>
+                <li><a href="trangchubaitaplon.html">Trang Chủ</a></li>
+                <li><a href="Sanphambaitaplon.html">Sản Phẩm</a></li>
+                <li><a href="lienhebaitaplon.html">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Chào Mừng Đến Với Cửa Hàng Chúng Tôi!</h2>
+        <p>Giày đá bóng chất lượng cao cho mọi cầu thủ.</p>
+    </section>
+
+    <section id="products">
+        <h2>Sản Phẩm</h2>
+        <div class="product">
+            <div class="section">
+            <h3>ADIDAS F50 PRO TF - IF1324 - ĐỎ/ĐEN</h3>
+            <p>Loại: Giày Cỏ Nhân Tạo (Turf)</p> 
+            <p>Mã SP: IF1324-39-1-3</p>
+            <img src="das1.webp " width="250px" alt="Giày Đá Bóng Nike">
+            <p>Giá: 1,500,000 VNĐ</p>
+            <div>
+                <label for="size-nike">Chọn kích thước:</label>
+                <select id="size-nike" name="size">
+                <option value="39">39 1/3</option>
+                <option value="40">40</option>
+                <option value="41">40 2/3</option>
+                <option value="42">41 1/3</option>
+                <option value="43">42</option>
+                <option value="43">42 2/3</option>
+                <option value="43">44</option>
+    </select>
+    <button>Mua Ngay</button>
+            </div>
+            </div>
+        </div>
+        <div class="product">
+            <h3>Nike Zoom Mercurial Vapor 15 Academy TF Mad Brilliance - Hồng/Đen </h3>
+            <p>Loại: Giày Cỏ Nhân Tạo (Turf)</p> 
+            <p>Mã SP:  DJ5635-601</p>
+            <img src="nike1.webp" width="250px" alt="Giày Đá Bóng Adidas">
+            <p>Giá: 1,350,000 VNĐ</p>
+            <div>
+                <label for="size-nike">Chọn kích thước:</label>
+                <select id="size-nike" name="size">
+                <option value="39">39 1/3</option>
+                <option value="40">40</option>
+                <option value="41">40 2/3</option>
+                <option value="42">41 1/3</option>
+                <option value="43">42</option>
+                <option value="43">42 2/3</option>
+                <option value="43">44</option>
+    </select>
+    <button>Mua Ngay</button>
+            </div>
+        </div>
+        <div class="product">
+            <h3>ADIDAS X CRAZYFAST.3 TF - ID9337 - TRẮNG/VÀNG CHANH</h3>
+            <img src="das2.webp" width="250px" alt="Giày Đá Bóng Puma">
+            <p>Loại: Giày Cỏ Nhân Tạo (Turf)</p> 
+            <p>Mã SP: ID9337-42-2-3</p>
+            <p>Giá: 1,790,000 VNĐ</p>
+            div>
+                <label for="size-nike">Chọn kích thước:</label>
+                <select id="size-nike" name="size">
+                <option value="39">39 1/3</option>
+                <option value="40">40</option>
+                <option value="41">40 2/3</option>
+                <option value="42">41 1/3</option>
+                <option value="43">42</option>
+                <option value="43">42 2/3</option>
+                <option value="43">44</option>
+    </select>
+    <button>Mua Ngay</button>
+            </div>
+        </div>
+    </section>
+    <div class="product">
+        <h3>Mizuno Morelia Neo III Pro AS - Màu Trắng</h3>
+        <img src="anh11.webp" width="250px" alt="Giày Đá Bóng Puma">
+        <p>Loại: Giày Cỏ Nhân Tạo (Turf)</p> 
+        <p>Mã SP: P1GD238404</p>
+        <p>Giá: 1,450,000 VNĐ</p>
+        div>
+            <label for="size-nike">Chọn kích thước:</label>
+            <select id="size-nike" name="size">
+            <option value="39">39 1/3</option>
+            <option value="40">40</option>
+            <option value="41">40 2/3</option>
+            <option value="42">41 1/3</option>
+            <option value="43">42</option>
+            <option value="43">42 2/3</option>
+            <option value="43">44</option>
+</select>
+<button>Mua Ngay</button>
+        </div>
+    </div>
+</section>
+
+    <section id="lienhebaitaplon">
+        <h2>Liên Hệ</h2>
+        <p>Email: ngohao9206@gmail.com</p>
+        <p>Điện thoại: 0926 720 922</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cửa Hàng Giày Đá Bóng. Tất cả quyền lợi được bảo lưu.</p>
+    </footer>
+    <div class="section">Phần 1</div>
+    <div class="section">Phần 2</div>
+    <div class="section">Phần 3</div>
+</body>
+</html>
